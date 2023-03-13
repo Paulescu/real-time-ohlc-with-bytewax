@@ -22,7 +22,7 @@ This repository shows how to
 * transform trade data into OHLC data in real-time using [Bytewax](https://bytewax.io/), and
 * plot the OHLC data using [Bokeh](https://bokeh.org/) and [Streamlit](https://github.com/streamlit/streamlit).
 
-The final app is publicly deployed on Streamlit Cloud 👉🏽 [click here]()
+The final app is publicly deployed on Streamlit Cloud 👉🏽 [click here](https://paulescu-real-time-ohlc-with-bytewax.streamlit.app/)
 
 ## Quick setup
 
