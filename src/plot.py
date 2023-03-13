@@ -40,14 +40,14 @@ def get_candlestick_plot(
     p.grid.grid_line_alpha=0.3
 
     p.segment(df.date, df.high, df.date, df.low, color="black")
-    p.vbar(df.date[inc], w, df.open[inc], df.close[inc], fill_color="#D5E1DD", line_color="black")
+    p.vbar(df.date[inc], w, df.open[inc], df.close[inc], fill_color="#70bd40", line_color="black")
     p.vbar(df.date[dec], w, df.open[dec], df.close[dec], fill_color="#F2583E", line_color="black")
 
-    # Draw Bollinger bands
-    x = df['date']
-    upper_band = df['upper_band'].to_numpy()
-    lower_band = df['lower_band'].to_numpy()
-    p.line(x, upper_band, line_alpha=0.8)
-    p.line(x, lower_band, line_alpha=0.8)
+    # # Draw Bollinger bands
+    # x = df['date']
+    # upper_band = df['upper_band'].to_numpy()
+    # lower_band = df['lower_band'].to_numpy()
+    # p.line(x, upper_band, line_alpha=0.8)
+    # p.line(x, lower_band, line_alpha=0.8)
 
     return p

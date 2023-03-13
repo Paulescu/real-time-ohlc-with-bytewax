@@ -12,7 +12,7 @@ WINDOW_SECONDS = 30
 
 st.set_page_config(layout="wide")
 st.title(f"ETH/USD OHLC data every {WINDOW_SECONDS} seconds")
-st.header('Lines represent Bollinger Bands')
+# st.header('Lines represent Bollinger Bands')
 
 # here we store the data our Stream processing outputs
 df = pd.DataFrame()

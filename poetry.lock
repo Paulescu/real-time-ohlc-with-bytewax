@@ -1476,17 +1476,6 @@ watchdog = {version = "*", markers = "platform_system != \"Darwin\""}
 snowflake = ["snowflake-snowpark-python"]
 
 [[package]]
-name = "ta-lib"
-version = "0.4.25"
-description = "Python wrapper for TA-Lib"
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-numpy = "*"
-
-[[package]]
 name = "terminado"
 version = "0.17.1"
 description = "Tornado websocket backend for the Xterm.js Javascript terminal emulator library."
@@ -1695,7 +1684,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "flake8 (<5)", "pytest-co
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.9,<3.9.7 || >3.9.7,<4.0"
-content-hash = "23ada162711c71ff94cafb405af78ee23ba858e0eccc3ae1d272b1ad515c3959"
+content-hash = "3b6685a44acd9c3a62e278dde85f63d4958d5cb281b548e2059c54af52e5f082"
 
 [metadata.files]
 altair = []
@@ -1957,7 +1946,6 @@ sniffio = []
 soupsieve = []
 stack-data = []
 streamlit = []
-ta-lib = []
 terminado = []
 tinycss2 = []
 toml = [

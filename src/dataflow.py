@@ -155,13 +155,13 @@ def get_dataflow(
 
     flow.map(calculate_features)
 
-    # compute technical-indicators
-    from src.technical_indicators import BollingerBands
-    flow.stateful_map(
-        "technical_indicators",
-        lambda: BollingerBands(3),
-        BollingerBands.compute
-    )
+    # # compute technical-indicators
+    # from src.technical_indicators import BollingerBands
+    # flow.stateful_map(
+    #     "technical_indicators",
+    #     lambda: BollingerBands(3),
+    #     BollingerBands.compute
+    # )
 
     return flow
 
