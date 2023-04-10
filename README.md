@@ -15,7 +15,7 @@
 </div>
 
 <p align="center">
-  <img src="images/header.png" width='400' />
+  <img src="https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F26413f2b-6196-4b16-bc60-bf4e0637a831_931x667.png" width='500' />
 </p>
 
 #### Table of contents
