@@ -14,6 +14,14 @@
 <br />
 </div>
 
+<p align="center">
+  <img src="images/header.png" width='400' />
+</p>
+
+#### Table of contents
+1. [What is this repo about?](#what-is-this-repo-about)
+2. [How to run this code](#how-to-run-this-code)
+3. [Wannna build real-world ML products?](#wannna-build-real-world-ml-products)
 
 ## What is this repo about?
 This repository shows how to
@@ -24,15 +32,19 @@ This repository shows how to
 
 The final app is publicly deployed on Streamlit Cloud 👉🏽 [click here](https://paulescu-real-time-ohlc-with-bytewax.streamlit.app/)
 
-## Quick setup
+## How to run this code
 
-1. Install [Python Poetry](https://python-poetry.org/)
+1. Create a Python virtual environment with the project dependencies with
     ```
-    curl -sSL https://install.python-poetry.org | python3 -
+    $ make init
     ```
 
-2. cd into the project folder and run `poetry install`
+2. To run the Streamlit app locally simply do
+    ```
+    $ make run
+    ```
 
-3. activate the virtual env that you just created with `poetry shell`
+## Wannna build real-world ML products?
 
-To run the Streamlit app locally simply do `streamlit run src/frontend.py`
+Check the [Real-World ML Program](https://realworldmachinelearning.carrd.co/), a hands-on, 3-hour course where you will learn
+how to design, build, [deploy](https://taxi-demand-predictor.streamlit.app/), and [monitor](https://taxi-demand-predictor-monitoring.streamlit.app/) a real-world ML app.
