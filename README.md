@@ -44,7 +44,11 @@ The final app is publicly deployed on Streamlit Cloud 👉🏽 [click here](http
     $ make run
     ```
 
-## Wannna build real-world ML products?
+## Wanna learn to design, develop and deploy a real-world ML system yourself?
+Join the [Real-World ML Tutorial + Community](https://realworldmachinelearning.carrd.co/) and get LIFETIME ACCESS to
 
-Check the [Real-World ML Program](https://realworldmachinelearning.carrd.co/), a hands-on, 3-hour course where you will learn
-how to design, build, [deploy](https://taxi-demand-predictor.streamlit.app/), and [monitor](https://taxi-demand-predictor-monitoring.streamlit.app/) a real-world ML app.
+→ 3 hours of video lectures 🎬
+→ Full source code implementation 👨‍💻
+→ Discord private community, to connect with 100+ students and me 👨‍👩‍👦
+
+
