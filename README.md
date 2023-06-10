@@ -47,8 +47,8 @@ The final app is publicly deployed on Streamlit Cloud 👉🏽 [click here](http
 ## Wanna learn to design, develop and deploy a real-world ML system yourself?
 Join the [Real-World ML Tutorial + Community](https://realworldmachinelearning.carrd.co/) and get LIFETIME ACCESS to
 
-→ 3 hours of video lectures 🎬
-→ Full source code implementation 👨‍💻
-→ Discord private community, to connect with 100+ students and me 👨‍👩‍👦
+* 3 hours of video lectures 🎬
+* Full source code implementation 👨‍💻
+* Discord private community, to connect with 100+ students and me 👨‍👩‍👦
 
 
